@@ -3,7 +3,7 @@ from django.db import models
 # Create your models here.
 class Reservation(models.Model):
     name = models.CharField(max_length=100)
-    phone_number = models.CharField(max_length=15)
+    phone_number = models.CharField(max_length=15, unique=True)
     type_of_service = models.CharField(max_length=100, choices=[
         ('Haircuts and styling', 'haircuts and styling'),
         ('Manicure and pedicure', 'manicure and pedicure'),
