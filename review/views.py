@@ -38,6 +38,7 @@ def review_get(request, page_number):
             "current": page_obj.number,
             "has_next": page_obj.has_next(),
             "has_previous": page_obj.has_previous(),
+            "total_pages": paginator.num_pages
         },
         "data": data
         }
