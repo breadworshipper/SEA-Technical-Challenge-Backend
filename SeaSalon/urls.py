@@ -22,7 +22,8 @@ from django.urls import include
 patterns = [
     # path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
     # path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
-    path('', include('reservation.urls')),  
+    path('', include('reservation.urls')), 
+    path('', include('review.urls')), 
 ]
 
 urlpatterns = [
