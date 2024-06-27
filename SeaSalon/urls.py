@@ -20,10 +20,9 @@ from django.urls import include
 
 # Define your API v1 patterns here
 patterns = [
-    # path('token/', TokenObtainPairView.as_view(), name='token_obtain_pair'),
-    # path('token/refresh/', TokenRefreshView.as_view(), name='token_refresh'),
     path('', include('reservation.urls')), 
     path('', include('review.urls')), 
+    path('', include('authentication.urls')),
 ]
 
 urlpatterns = [
