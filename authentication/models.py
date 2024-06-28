@@ -16,4 +16,8 @@ class CustomUser(AbstractUser):
 
     USERNAME_FIELD = 'email'
     REQUIRED_FIELDS = ['full_name', 'phone_number']
-    
+
+    def save(self, *args, **kwargs):
+        # Automatically populate the username field with the email's local-part
+        self.username = self.email
+        super(CustomUser, self).save(*args, **kwargs)
