@@ -1,10 +1,5 @@
 # SEA Technical Challenge - Backend
-Welcome to the repository. This project is a task for the COMPFEST SEA Academy. 
-
-## Highlights
-- Hosted the database on supabase
-- All endpoints are prefixed with "api/v1/"
-- Download and import the postman workspace from [here](https://drive.google.com/file/d/1O2ynremZ3nnGqmaThSvW3JiUmhR8gWSv/view?usp=sharing)
+Welcome to the repository. This project is a task for the COMPFEST SEA Academy. This backend project was developed with Django framework.
 
 ## Getting Started
 Before running you'd need to add a .env file in root of the project. The content is as follows :
@@ -24,7 +19,13 @@ env\Scripts\activate
 
 pip install -r requirements.txt
 ```
-After that you'd only need to run 
+After that you'd only need to run the command below to start the server
 ```bash
 python manage.py runserver
 ```
+
+## Highlights
+- Hosted the database on supabase
+- All endpoints are prefixed with "api/v1/"
+- Ping me on discord (id: breadworshipper) to get invited to the postman workspace
+
