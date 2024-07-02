@@ -16,7 +16,7 @@ def reservation_post(request):
         serializer = ReservationSerializers(data=request.data)
         serializer.is_valid(raise_exception=True)
 
-        serializer.save(user=request.user)
+        serializer.save()
 
         return JsonResponse(serializer.data, status=201)
         
