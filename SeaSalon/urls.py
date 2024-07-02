@@ -23,6 +23,7 @@ patterns = [
     path('', include('reservation.urls')), 
     path('', include('review.urls')), 
     path('', include('authentication.urls')),
+    path('', include('branch.urls')),
 ]
 
 urlpatterns = [
