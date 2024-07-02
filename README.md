@@ -4,6 +4,7 @@ Welcome to the repository. This project is a task for the COMPFEST SEA Academy.
 ## Highlights
 - Hosted the database on supabase
 - All endpoints are prefixed with "api/v1/"
+- Download and import the postman workspace from [here](https://drive.google.com/file/d/1O2ynremZ3nnGqmaThSvW3JiUmhR8gWSv/view?usp=sharing)
 
 ## Getting Started
 Before running you'd need to add a .env file in root of the project. The content is as follows :
