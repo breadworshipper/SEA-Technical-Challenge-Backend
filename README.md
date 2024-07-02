@@ -15,13 +15,14 @@ DATABASE_PASSWORD = KktW8z0eoCSUXxFR
 For the first time, simply do the steps below to install the required dependencies :
 ```bash
 python -m venv env
-pip install -r requirements.txt
 
 # If you're on macOS or linux
 source env/bin/activate 
 
 # If you're on windows
 env\Scripts\activate
+
+pip install -r requirements.txt
 ```
 After that you'd only need to run 
 ```bash
